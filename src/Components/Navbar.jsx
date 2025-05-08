@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <>
     <nav>
-        <div>
+        <div className='nav-logo'>
         <img src={logo} alt="Logo" />
         </div>
-        <div>
+
         <ul>
             <li>Prespective</li>
             <li>Templetes</li>
@@ -16,12 +16,12 @@ function Navbar() {
             <li>Resources</li>
             <li>About us</li>
         </ul>
-        </div>
-        <div>
-            <button>
+
+        <div className='nav-btn'>
+            <button className='login'>
                 Login
             </button>
-            <button>
+            <button className='tryforfree'>
                 Try For Free
             </button>
         </div>

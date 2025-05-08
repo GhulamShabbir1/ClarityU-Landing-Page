@@ -11,7 +11,7 @@ function Section8() {
             Make your data invisible by generating unlimited identities. The
             next-level in privacy protection for online and travel.
           </p>
-          <div class="footer-menu">
+          <div className="footer-menu">
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Contact</a>
@@ -19,7 +19,7 @@ function Section8() {
             <a href="">Social</a>
           </div>
         </div>
-        <div className="column links">
+        <div classNameName="column links">
           <h3>Company</h3>
           <ul>
             <li>
@@ -36,7 +36,7 @@ function Section8() {
             </li>
           </ul>
         </div>
-        <div className="column links">
+        <div classNameName="column links">
           <h3>Solutions</h3>
           <ul>
             <li>
@@ -50,7 +50,7 @@ function Section8() {
             </li>
           </ul>
         </div>
-        <div className="column links">
+        <div classNameName="column links">
           <h3>Legal</h3>
           <ul>
             <li>

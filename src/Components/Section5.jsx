@@ -1,4 +1,9 @@
 import React from 'react'
+import R1 from '../assets/Review1.png'
+import R2 from '../assets/Review2.png'
+import R3 from '../assets/Review3.png'
+import Person1 from '../assets/p1.png'
+import Person2 from '../assets/p2.png'
 
 function Section5() {
   return (
@@ -10,7 +15,6 @@ function Section5() {
       <input type="radio" name="slider" id="slide2" />
 
       <div className="slides">
-        {/* Slide 1 */}
         <div className="slide" id="s1">
           <div className="content">
             <h3>CONVAIX.</h3>
@@ -20,11 +24,11 @@ function Section5() {
             <p className="author">Phillip Weber, CEO</p>
           </div>
           <div className="image">
-            <img src="/assets/person1.jpg" alt="person" />
+            <img src={Person1} alt="person" />
           </div>
         </div>
 
-        {/* Slide 2 */}
+        
         <div className="slide" id="s2">
           <div className="content">
             <h3>CONVAIX.</h3>
@@ -34,7 +38,7 @@ function Section5() {
             <p className="author">Jessica Lee, COO</p>
           </div>
           <div className="image">
-            <img src="/assets/person2.jpg" alt="person" />
+            <img src={Person2} alt="person" />
           </div>
         </div>
       </div>
@@ -45,6 +49,14 @@ function Section5() {
         <label htmlFor="slide2" className="arrow right">&#10095;</label>
       </div>
     </div>
+    </div>
+    <div>
+      <h2>The top rated Conservation Optimization tools</h2>
+      <div>
+        <img src={R1} alt="Review 1" />
+        <img src={R2} alt="Review 2" />
+        <img src={R3} alt="Review 3" />
+      </div>
     </div>
     </>
   )

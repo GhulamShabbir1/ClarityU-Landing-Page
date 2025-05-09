@@ -7,21 +7,30 @@ import Link4 from '../assets/s6.3.2.png'
 function Section6() {
   return (
     <>
-    <h2>Learn easily and free. Take <br />your online marketing into <br />your own hands.</h2>
-    <div>
-        <div>
+    <div className="s2-cont s6-cont">
+
+    <h2 >Learn easily and free. Take <br />your online marketing into <br />your own hands.</h2>
+    </div>
+    <div className='features'>
+        <div className='components'>
+        <div className='feature1'>
+            <div className='learn'>
             <h2>Prospective <br />Community</h2>
-            <p>Where marketers and recruiters exchange</p>
-            <p>insights on a daily basis</p>
+            <text>Where marketers and recruiters exchange</text>
+            <text>insights on a daily basis</text>
             <a href="#">Learn more</a>
+            </div>
             <img src={Link1} alt="advertise" />
         </div>
-        <div>
+        <div className='feature2'>
+            <div className='learn'>
             <h2>Mobile Funnel <br />Crash Course</h2>
-            <p>The popular 60-minute mobile funnel crash</p>
-            <p>course, moderated live</p>
+            <text>The popular 60-minute mobile funnel crash</text>
+            <text>course, moderated live</text>
             <a href="#">Learn more</a>
+            </div>
             <img src={Link2} alt="advertise" />
+        </div>
         </div>
         <div>
             <h2>Mobile Funnel <br />Marketing Acedemy</h2>

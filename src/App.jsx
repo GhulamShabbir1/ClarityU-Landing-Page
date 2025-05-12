@@ -19,9 +19,10 @@ function App() {
         <Section4></Section4>
         <Section5></Section5>
         <Section6></Section6>
-        <Section7></Section7>
-        <Section8></Section8>
+        
       </div>
+      <Section7></Section7>
+        <Section8></Section8>
     </>
   );
 }

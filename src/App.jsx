@@ -12,17 +12,18 @@ function App() {
   return (
     <>
       <Navbar />
-      <Section1></Section1>
-      <div className="same">
-        <Section2></Section2>
-        <Section3></Section3>
-        <Section4></Section4>
-        <Section5></Section5>
-        <Section6></Section6>
-        
-      </div>
-      <Section7></Section7>
+      <div className="centerize">
+        <Section1></Section1>
+        <div className="same">
+          <Section2></Section2>
+          <Section3></Section3>
+          <Section4></Section4>
+          <Section5></Section5>
+          <Section6></Section6>
+        </div>
+        <Section7></Section7>
         <Section8></Section8>
+      </div>
     </>
   );
 }

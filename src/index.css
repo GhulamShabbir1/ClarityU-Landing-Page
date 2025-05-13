@@ -685,6 +685,13 @@ margin-top: 32px;
     margin-left: 80px;
     margin-right: 80px;
   }
+
+  .centerize{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
   .s1-cont h2 {
     font-size: 3.5rem;

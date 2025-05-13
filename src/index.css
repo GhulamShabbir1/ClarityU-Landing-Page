@@ -1,7 +1,5 @@
 *{
-
-  margin: 0;
-  padding: 0%;
+  margin: 0%;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -675,5 +673,164 @@ margin-top: 32px;
   }
   100%{
     transform: translateX(-50%);
+  }
+}
+
+/* ===== Responsive Styles ===== */
+
+/* For tablets and small desktops (≤ 1024px) */
+@media (max-width: 1024px) {
+  nav, .same, .logo-container, .s7-cont, .footersection {
+    padding: 0 40px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  ul {
+    gap: 24px;
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .s1-cont h2, .s2-cont h2 {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+
+  p {
+    width: 100%;
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .s1-btn {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .start, .join {
+    width: 80%;
+  }
+
+  .s2-main, .s3-main {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 40px;
+  }
+
+  .disc-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .components {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .feature1, .feature2 {
+    width: 90%;
+  }
+
+  .feature3 {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .more {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .s7-cont {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .s7-center h2 {
+    font-size: 2.5rem;
+  }
+
+  .footersection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+
+/* For mobile devices (≤ 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-btn {
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+  }
+
+  .s1-cont h2 {
+    font-size: 2rem;
+  }
+
+  .video {
+    height: 200px;
+  }
+
+  .s5-cont {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .s5-main {
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .review {
+    font-size: 1.5rem;
+  }
+
+  .logo-container {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 20px;
+  }
+
+  .feature1, .feature2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .feature3 {
+    flex-direction: column;
+  }
+
+  .s7-center h2 {
+    font-size: 2rem;
+  }
+
+  .rights text {
+    font-size: 12px;
   }
 }

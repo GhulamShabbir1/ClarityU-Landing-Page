@@ -677,24 +677,28 @@ margin-top: 32px;
 }
 
 
-@media (min-width:768px) and  (max-width: 1200px) {
+@media (max-width: 1200px) {
   nav, .same, .logo-container, .testification, .s7-cont, .footersection {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .s1-cont h2, .s2-cont h2, .s7-center h2 {
     font-size: 3rem;
     width: 90%;
+    align-items: center;
+    justify-content: center;
   }
 
   .s1-cont p, .business p, .learn text, .more h3, .more text {
     font-size: 16px;
     width: 90%;
+    
   }
 
   .s1-btn, .start, .join {
-    width: 100%;
+    width: 50%;
     flex-direction: column;
     gap: 16px;
   }

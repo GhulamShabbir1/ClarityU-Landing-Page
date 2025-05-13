@@ -676,49 +676,146 @@ margin-top: 32px;
   }
 }
 
-/* ===== Responsive Styles ===== */
 
-/* For tablets and small desktops (≤ 1024px) */
-@media (max-width: 1024px) {
-  nav, .same, .logo-container, .s7-cont, .footersection {
-    padding: 0 40px;
+@media (max-width: 1200px) {
+  nav, .same, .logo-container, .testification, .s7-cont, .footersection {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .s1-cont h2, .s2-cont h2, .s7-center h2 {
+    font-size: 3rem;
+    width: 90%;
+  }
+
+  .s1-cont p, .business p, .learn text, .more h3, .more text {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .s1-btn, .start, .join {
     width: 100%;
-    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .s1-btn {
+    height: auto;
+  }
+
+  .s2-main, .s3-main, .components {
+    flex-direction: column;
+    gap: 32px;
+    height: auto;
+  }
+
+  .disc-img img, .feature1, .feature2, .feature3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .more, .learn {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .s5-cont, .s7-cont, .footersection {
+    flex-direction: column;
+    height: auto;
+    gap: 32px;
+  }
+
+  .s5-main {
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advertise {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .bg1, .bg2 {
+    display: none;
+  }
+
+  .s7-center {
+    width: 95%;
+    margin-top: 40px;
+  }
+
+  .footer {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .footersection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-btn, ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
   }
 
   ul {
-    gap: 24px;
-    width: auto;
     flex-wrap: wrap;
+    gap: 20px;
   }
 
-  .s1-cont h2, .s2-cont h2 {
+  .login, .tryforfree {
     width: 100%;
-    font-size: 2.5rem;
+    text-align: center;
   }
 
-  p {
+  .nav-logo {
+    width: 120px;
+  }
+
+  .review {
+    font-size: 24px;
     width: 100%;
+  }
+
+  .tname {
     font-size: 16px;
-    padding: 0 20px;
+  }
+
+  .feature1, .feature2 {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .feature3 {
+    flex-direction: column;
+    height: auto;
+    padding: 32px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .s1-cont h2, .s2-cont h2, .s7-center h2 {
+    font-size: 2.2rem;
   }
 
   .s1-btn {
     flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    align-items: center;
+    width: 90%;
   }
 
   .start, .join {
-    width: 80%;
-  }
-
-  .s2-main, .s3-main {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    gap: 40px;
+    width: 100%;
   }
 
   .disc-img img {
@@ -726,111 +823,13 @@ margin-top: 32px;
     height: auto;
   }
 
-  .components {
-    flex-direction: column;
-    gap: 30px;
-    width: 100%;
-    align-items: center;
-  }
-
-  .feature1, .feature2 {
+  .footersection {
     width: 90%;
   }
 
-  .feature3 {
-    flex-direction: column;
-    height: auto;
-    padding: 30px 20px;
-  }
-
-  .more {
-    margin: 0;
-    align-items: center;
-    text-align: center;
-  }
-
-  .s7-cont {
-    flex-direction: column;
-    height: auto;
-    gap: 20px;
-  }
-
-  .s7-center h2 {
-    font-size: 2.5rem;
-  }
-
-  .footersection {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-  }
-}
-
-/* For mobile devices (≤ 768px) */
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    height: auto;
-    gap: 20px;
-  }
-
-  ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .nav-btn {
-    flex-direction: column;
-    gap: 10px;
-    width: auto;
-  }
-
-  .s1-cont h2 {
-    font-size: 2rem;
-  }
-
-  .video {
-    height: 200px;
-  }
-
-  .s5-cont {
-    flex-direction: column;
-    height: auto;
-    padding: 30px 20px;
-  }
-
-  .s5-main {
-    padding: 0;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-  }
-
-  .review {
-    font-size: 1.5rem;
-  }
-
   .logo-container {
+    width: 90%;
     flex-wrap: wrap;
-    height: auto;
-    gap: 20px;
-  }
-
-  .feature1, .feature2 {
-    width: 100%;
-    height: auto;
-  }
-
-  .feature3 {
-    flex-direction: column;
-  }
-
-  .s7-center h2 {
-    font-size: 2rem;
-  }
-
-  .rights text {
-    font-size: 12px;
+    gap: 12px;
   }
 }

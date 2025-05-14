@@ -35,7 +35,7 @@ function Section6() {
                 Learn more
               </a>
             </div>
-            <img src={Link1} alt="advertise" />
+            <img className="ad" src={Link1} alt="advertise" />
           </div>
           <div className="feature2">
             <div className="learn">
@@ -51,7 +51,7 @@ function Section6() {
                 Learn more
               </a>
             </div>
-            <img src={Link2} alt="advertise" />
+            <img className="ad" src={Link2} alt="advertise" />
           </div>
         </div>
         <div className="feature3">
@@ -64,7 +64,10 @@ function Section6() {
               Our Head of Content, Leni, guides you through <br />
               your first successful funnel
             </text>
-            <a href="#"><img src={Link6} alt="arrow" />Learn more</a>
+            <a href="#">
+              <img src={Link6} alt="arrow" />
+              Learn more
+            </a>
           </div>
           <div className="advertise">
             <img className="img1" src={Link3} alt="advertise" />

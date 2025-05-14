@@ -11,30 +11,30 @@ function Section7() {
         <div className="bg1">
           <img src={Bg1} alt="bg" />
         </div>
-        
-         <div className=" s7-center">
+
+        <div className=" s7-center">
           <h2>
             Start advertising more <br />
             effectively in the mobile age.
           </h2>
-       <div className="check-list">
-                 <ul>
-                   <li className="points">
-                     <img src={Check} alt="check" />
-                     Cancel anytime
-                   </li>
-                   <li className="points">
-                     <img src={Check} alt="check" />
-                     Access all the content
-                   </li>
-                   <li className="points">
-                     <img src={Check} alt="check" />
-                     Expert support
-                   </li>
-                 </ul>
-               </div>
+          <div className="check-list">
+            <ul>
+              <li className="points">
+                <img src={Check} alt="check" />
+                Cancel anytime
+              </li>
+              <li className="points">
+                <img src={Check} alt="check" />
+                Access all the content
+              </li>
+              <li className="points">
+                <img src={Check} alt="check" />
+                Expert support
+              </li>
+            </ul>
+          </div>
 
-        <button className="start">Start my free 14 days Trail</button> 
+          <button className="start">Start my free 14 days Trail</button>
         </div>
         <div className="bg2">
           <img src={Bg2} alt="bg" />

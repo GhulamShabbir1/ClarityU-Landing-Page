@@ -57,6 +57,8 @@ function Section1() {
         <p>use daily by more then 5000 small and large businesses</p>
       </div>
       <div className="logo-container">
+        <img src={Logo4} className="logo floating" alt="logo" />
+        <img src={Logo6} className="logo floating" alt="logo" />
         <img src={Logo2} className="logo floating" alt="logo" />
         <img src={Logo3} className="logo floating" alt="logo" />
         <img src={Logo4} className="logo floating" alt="logo" />

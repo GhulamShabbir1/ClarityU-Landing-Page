@@ -1,9 +1,11 @@
 import React from "react";
 import Icon from "../assets/Icon.png";
+import Logo1 from "../assets/cocelogo.png";
 import Logo2 from "../assets/L2.png";
 import Logo3 from "../assets/L3.png";
 import Logo4 from "../assets/L4.png";
 import Logo6 from "../assets/L6.png";
+import Logo7 from "../assets/marriot.png";
 import Check from "../assets/check.png";
 import Video from "../assets/s1t.png";
 
@@ -56,13 +58,16 @@ function Section1() {
       <div className="business">
         <p>use daily by more then 5000 small and large businesses</p>
       </div>
-      <div className="logo-container">
-        <img src={Logo4} className="logo floating" alt="logo" />
-        <img src={Logo6} className="logo floating" alt="logo" />
-        <img src={Logo2} className="logo floating" alt="logo" />
-        <img src={Logo3} className="logo floating" alt="logo" />
-        <img src={Logo4} className="logo floating" alt="logo" />
-        <img src={Logo6} className="logo floating" alt="logo" />
+      <div className="logo-slider">
+        <div className="logo-track">
+          <img src={Logo1} className="logo" alt="logo" />
+          <img src={Logo6} className="logo" alt="logo" />
+          <img src={Logo4} className="logo" alt="logo" />
+          <img src={Logo2} className="logo" alt="logo" />
+          <img src={Logo3} className="logo" alt="logo" />
+          <img src={Logo7} className="logo" alt="logo" />
+
+        </div>
       </div>
     </>
   );

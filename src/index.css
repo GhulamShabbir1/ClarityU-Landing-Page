@@ -259,15 +259,24 @@ position: relative;
 
 .logo-track {
   display: flex;
-   /* enough width to hold duplicates */
-  animation: scroll-left 10s linear infinite;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 1058px;
+  margin: auto;
+  border: 2px solid red;
+  
 }
 
-.logo {
+.logo{
+  animation: scroll-left 10s linear infinite;
+}
+/* .logo {
+  height: 56px;
   width: 80px;
   height: auto;
   margin: 0 20px;
-}
+} */
 
 /* Keyframes for continuous scroll */
 @keyframes scroll-left {
@@ -301,6 +310,7 @@ position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .toolsIntegration-cont{
@@ -369,12 +379,14 @@ position: relative;
 
 .heading {
   font-weight: bold;
+  font-size: 23.9px;
 }
 
 .description {
   font-size: 14px;
   color: #555;
   margin-top: 5px;
+  width: 293.33px;
 }
 
 .customerReview-cont{

@@ -12,7 +12,7 @@ import "boxicons";
 function Section1() {
   return (
     <>
-      <div className="s1-cont">
+      <div className="heroSection-cont">
         <h2>Create hight-Converting funnels in just 60 Minutes</h2>
 
         <p>
@@ -20,7 +20,7 @@ function Section1() {
           easy-build <br /> Prospective funnels, No designing and programming
           skills required
         </p>
-        <div className="s1-btn">
+        <div className="heroSection-btn">
           <button className="start">Start my free 14 days Trail</button>
           <button className="join">
             <img src={Icon} alt="play" />

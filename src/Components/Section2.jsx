@@ -29,11 +29,11 @@ function Section2() {
 
   return (
     <>
-      <div className="s2-cont">
+      <div className="createFunel-cont">
         <h2>Create your first funnels in 60 minutes. Headache-free.</h2>
       </div>
       
-      <div className="s2-main">
+      <div className="createFunel-main">
         <div className="disc">
           {features.map((feature, index) => (
             <div
@@ -53,7 +53,7 @@ function Section2() {
         </div>
       </div>
 
-      {/* <div className="s2-main">
+      {/* <div className="createFunel-main">
         <div className="disc">
           <details>
             <summary>Fast editing</summary>

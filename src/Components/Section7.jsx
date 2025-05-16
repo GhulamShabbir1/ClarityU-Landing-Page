@@ -7,12 +7,12 @@ import Check from "../assets/check.png";
 function Section7() {
   return (
     <>
-      <div className="s7-cont">
+      <div className="advertising-cont">
         <div className="bg1">
           <img src={Bg1} alt="bg" />
         </div>
 
-        <div className=" s7-center">
+        <div className=" advertising-center">
           <h2>
             Start advertising more <br />
             effectively in the mobile age.

@@ -9,22 +9,22 @@ import Person2 from "../assets/p2.png";
 function Section5() {
   return (
     <>
-      <div className="s2-cont">
+      <div className="createFunel-cont">
         <h2>
           With Perspective, our customers <br />
           make the impossible possible.
         </h2>
       </div>
 
-      <div className="s5-cont">
-        <div className="s5-main">
+      <div className="customerReview-cont">
+        <div className="customerReview-main">
           <img src={Clogo} className="company" alt="" />
           <text className="review">
             Generated over 900 applications in 10 weeks and over 120 new hires.
           </text>
           <text className="tname">Phillip Weber, CEO</text>
         </div>
-        <div className="s5-image">
+        <div className="customerReview-image">
           <img src={Person1} alt="person" />
         </div>
       </div>

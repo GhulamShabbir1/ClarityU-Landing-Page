@@ -10,7 +10,7 @@ import "boxicons";
 function Section6() {
   return (
     <>
-      <div className="s2-cont s6-cont">
+      <div className="createFunel-cont onlineMarket-cont">
         <h2>
           Learn easily and free. Take <br />
           your online marketing into <br />

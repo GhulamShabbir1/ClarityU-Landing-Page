@@ -68,7 +68,7 @@ color:#747981;
 
 }
 
-.s1-cont{
+.heroSection-cont{
   
   width: 100%;
   height: 400px;
@@ -78,7 +78,7 @@ color:#747981;
   align-items: center;
 }
 
-.s1-cont h2{
+.heroSection-cont h2{
   font-weight: 650;
   font-size: 4rem;
   width: 890px;
@@ -99,7 +99,7 @@ p{
   margin-top: 24px;
 }
 
-.s1-btn{
+.heroSection-btn{
   height: 64px;
   width: 600px;
   display: flex;
@@ -220,7 +220,7 @@ p{
   margin: auto;
 }
 
-.s2-cont{
+.createFunel-cont{
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -228,13 +228,13 @@ p{
   align-items: center;
 }
 
-.s3-cont{
+.toolsIntegration-cont{
   margin-top: 140px;
   margin-bottom: 140px;
   height: 586px;
 }
 
-.s2-cont h2{
+.createFunel-cont h2{
   font-weight: 650;
   font-size: 3.5rem;
   width: 920px;
@@ -242,7 +242,7 @@ p{
   padding: 0;
 }
 
-.s2-main{
+.createFunel-main{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -250,7 +250,7 @@ p{
 
 }
 
-.s3-main{
+.toolsIntegration-main{
   margin-top:100px ;
   display: flex;
   align-items: center;
@@ -266,7 +266,7 @@ p{
   justify-content: space-between;
 }
 
-.s3-disc{
+.toolsIntegration-disc{
   margin-left: 50px;
 }
 
@@ -302,7 +302,7 @@ p{
   margin-top: 5px;
 }
 
-.s5-cont{
+.customerReview-cont{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -312,7 +312,7 @@ p{
   background-color: #E0E7ED;
 }
 
-.s5-main{
+.customerReview-main{
   width: 587px;
   height: 450px;
   display: flex;
@@ -321,7 +321,7 @@ p{
   flex-direction: column;
 }
 
-.s5-main text{
+.customerReview-main text{
   width: 465px;
   height: 120px;
   font-size: 32px;
@@ -363,7 +363,7 @@ p{
   justify-content: center;
   gap: 30px;
 }
-.s6-cont{
+.onlineMarket-cont{
   margin-top: 160px;
 }
 
@@ -497,7 +497,7 @@ p{
   margin-top: 65px;
 }
 
-.s7-cont{
+.advertising-cont{
   width: 1125px;
   height: 562px;
   display: flex;
@@ -528,7 +528,7 @@ p{
   object-fit: cover;
 }
 
-.s7-center {
+.advertising-center {
   position: absolute;
   padding: 0px;
   left: 50%;
@@ -544,7 +544,7 @@ p{
   margin-top: 100px;
 }
 
-.s7-center h2{
+.advertising-center h2{
   font-weight: 650;
   font-size: 4rem;
   padding: 0;
@@ -575,7 +575,7 @@ p{
 .rights{
   height: 46px;
   width: 100%;
-  border-top:0.5px solid #DDDDDE;
+  border-top:0.5px solid #272C39;
   margin-bottom: 32px;
   font-size: 14px;
   font-weight: 400;
@@ -682,7 +682,7 @@ margin-top: 32px;
     justify-content: center;
   }
   
-  .s1-cont h2 {
+  .heroSection-cont h2 {
     font-size: 3.5rem;
     width: 800px;
   }
@@ -691,7 +691,7 @@ margin-top: 32px;
     width: 700px;
   }
   
-  .same, .s5-cont, .testification, .components, .feature3, .s7-center  {
+  .same, .customerReview-cont, .testification, .components, .feature3, .advertising-center  {
     width: 900px;
   }
   
@@ -700,11 +700,11 @@ margin-top: 32px;
     height: 300px;
   }
   
-  .s3-disc {
+  .toolsIntegration-disc {
     margin-left: 30px;
   }
   
-  .s7-cont {
+  .advertising-cont {
     width: 800px;
     height: auto;
     margin-top: 100px;
@@ -743,7 +743,7 @@ margin-top: 32px;
     text-align: center;
   }
   
-  .s1-cont h2 {
+  .heroSection-cont h2 {
     font-size: 3rem;
     width: 700px;
     margin-top: 100px;
@@ -754,11 +754,11 @@ margin-top: 32px;
     font-size: 17px;
   }
   
-  .same, .s5-cont, .testification,  .s7-center {
+  .same, .customerReview-cont, .testification,  .advertising-center {
     width: 750px;
   }
   
-  .s1-btn {
+  .heroSection-btn {
     width: 500px;
   }
   
@@ -797,7 +797,7 @@ margin-top: 32px;
     width: 300px;
   }
 
-  .s5-cont{
+  .customerReview-cont{
     height: 450px;
     width: 800px;
   display: flex;
@@ -807,7 +807,7 @@ margin-top: 32px;
   background-color: #E0E7ED;
 }
 
-.s5-main{
+.customerReview-main{
   width: 400px;
   height: 380px;
   display: flex;
@@ -815,13 +815,13 @@ margin-top: 32px;
   flex-direction: column;
 }
 
-.s5-image img{
+.customerReview-image img{
   width: 350px;
   height: 350px;
   object-fit: cover;
 }
 
-.s5-main text{
+.customerReview-main text{
   width: 350px;
   height: 120px;
   font-size: 26px;
@@ -835,7 +835,7 @@ margin-top: 32px;
   margin-top: 20px;
 }
 
-.s5-main .tname text{
+.customerReview-main .tname text{
   font-size: 6px;
   font-weight: 500;
   width: 75px;
@@ -942,7 +942,7 @@ margin-top: 32px;
   overflow: hidden;
 }
   
-  .s7-cont {
+  .advertising-cont {
     width: 750px;
   }
   
@@ -951,11 +951,11 @@ margin-top: 32px;
     height: 450px;
   }
   
-  .s7-center h2 {
+  .advertising-center h2 {
     font-size: 3rem;
   }
 
-  .s7-center {
+  .advertising-center {
   position: absolute;
   padding: 0px;
   left: 50%;
@@ -972,7 +972,7 @@ margin-top: 32px;
  
 }
 
-.s7-center button{
+.advertising-center button{
   width: 280px;
 }
 
@@ -1028,7 +1028,7 @@ margin-top: 32px;
     width: 140px;
   }
   
-  .s1-cont h2 {
+  .heroSection-cont h2 {
     font-size: 2.5rem;
     width: 550px;
     margin-top: 80px;
@@ -1040,11 +1040,11 @@ margin-top: 32px;
     height: auto;
   }
   
-  .same, .s5-cont, .testification, .components, .feature3, .s7-center {
+  .same, .customerReview-cont, .testification, .components, .feature3, .advertising-center {
     width: 600px;
   }
   
-  .s1-btn {
+  .heroSection-btn {
     width: 400px;
   }
   
@@ -1064,12 +1064,12 @@ margin-top: 32px;
 
   }
   
-  .s2-cont h2, .s7-center h2 {
+  .createFunel-cont h2, .advertising-center h2 {
     font-size: 2.5rem;
     width: 550px;
   }
   
-  .s2-main, .s3-main {
+  .createFunel-main, .toolsIntegration-main {
     flex-direction: column;
     height: auto;
     gap: 40px;
@@ -1090,16 +1090,16 @@ margin-top: 32px;
     gap: 20px;
   }
   
-  .s3-disc {
+  .toolsIntegration-disc {
     margin-left: 0;
   }
   
-  .s7-cont {
+  .advertising-cont {
     width: 600px;
     height: 400px;
   }
 
-  .s5-cont{
+  .customerReview-cont{
     height: 450px;
     width: 600px;
   display: flex;
@@ -1109,7 +1109,7 @@ margin-top: 32px;
   background-color: #E0E7ED;
 }
 
-.s5-main{
+.customerReview-main{
   width: 300px;
   height: 380px;
   display: flex;
@@ -1118,13 +1118,13 @@ margin-top: 32px;
   flex-direction: column;
 }
 
-.s5-image img{
+.customerReview-image img{
   width: 300px;
   height: 350px;
   object-fit: cover;
 }
 
-.s5-main text{
+.customerReview-main text{
   width: 200px;
   height: 120px;
   font-size: 20px;
@@ -1138,13 +1138,13 @@ margin-top: 32px;
   margin-top: 20px;
 }
 
-.s5-main .tname text{
+.customerReview-main .tname text{
   font-size: 6px;
   font-weight: 500;
   width: 75px;
 }
 
-  .s7-center{
+  .advertising-center{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1220,7 +1220,7 @@ margin-top: 32px;
     margin-right: 15px;
   }
   
-  .s1-cont h2 {
+  .heroSection-cont h2 {
     font-size: 1.8rem;
     width: 300px;
   }
@@ -1229,11 +1229,11 @@ margin-top: 32px;
     width: 280px;
   }
   
-  .same, .s5-cont, .testification, .components, .feature3, .s7-center {
+  .same, .customerReview-cont, .testification, .components, .feature3, .advertising-center {
     width: 350px;
   }
   
-  .s1-btn {
+  .heroSection-btn {
     width: 280px;
   }
   
@@ -1241,7 +1241,7 @@ margin-top: 32px;
     width: 280px;
   }
   
-  .s2-cont h2, .s7-center h2 {
+  .createFunel-cont h2, .advertising-center h2 {
     font-size: 1.8rem;
     width: 250px;
   }
@@ -1259,7 +1259,7 @@ margin-top: 32px;
     width: 150px;
   }
 
-  .s5-cont{
+  .customerReview-cont{
     height: auto;
     display: flex;
     flex-direction: column;
@@ -1267,7 +1267,7 @@ margin-top: 32px;
     justify-content: center;
   }
   
-  .s7-center{
+  .advertising-center{
     border: 2px solid red;
     height: 350px;
     margin-bottom: 500;

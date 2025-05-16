@@ -28,14 +28,14 @@ function Section4() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
-    <div className="s2-cont">
+    <div className="createFunel-cont">
     <h2>
       Analyze your target audience and<br />
       achieve record results.
       </h2>
     </div>
       
-      <div className="s2-main s4-main" >
+      <div className="createFunel-main targetAudiance-main" >
         <div className="disc">
         {features.map((feature, index) => (
             <div

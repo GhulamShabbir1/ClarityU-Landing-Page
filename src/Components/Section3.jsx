@@ -28,16 +28,16 @@ function Section3() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
-      <div className="s2-cont s3-cont">
+      <div className="createFunel-cont toolsIntegration-cont">
         <h2>
           Integrate your favorite tools and
           share your funnel with the world.
         </h2>
-        <div className="s2-main s3-main">
+        <div className="createFunel-main toolsIntegration-main">
           <div className="disc-img">
             <img src={S3} alt="section 3" />
           </div>
-          <div className="disc s3-disc">
+          <div className="disc toolsIntegration-disc">
           {features.map((feature, index) => (
             <div
               key={index}

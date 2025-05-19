@@ -1,7 +1,7 @@
 * {
   margin: 0%;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Inter",sans-serif;
 }
 
 .centerize{
@@ -920,18 +920,22 @@ text {
 @media only screen and (max-width: 1024px) {
 
 .centerize{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center; */
+    width: 90% ;
+    margin: 0 auto;
+    
   }
 
   nav {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 60px;
-    margin-right: 60px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 800px;
   }
 
   .nav-btn{
@@ -946,7 +950,7 @@ text {
 
 
   ul{
-    gap: 20px;
+    gap: 10px;
   }
 
   ul li{
@@ -955,13 +959,13 @@ text {
   
   .heroSection-cont h2 {
     font-size: 3rem;
-    width: 700px;
+    width: 70%;
     margin-top: 100px;
   }
   
   p {
-    width: 700px;
-    font-size: 17px;
+    width: 600px;
+    font-size: 15px;
   }
   
   .same, .customerReview-cont, .testification,  .advertising-center {
@@ -969,12 +973,19 @@ text {
   }
   
   .heroSection-btn {
-    width: 500px;
+    width: 400px;
   }
   
   .start, .join {
-    width: 240px;
-    height: 56px;
+    width: 220px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .check-list{
+    font-size: 15px;
+    margin-left: -10px;
   }
 
   .center {
@@ -997,7 +1008,53 @@ text {
   height: 100%;
   object-fit: cover;
 }
-  
+
+.createFunel-cont h2 {
+    font-weight: 650;
+    font-size: 3.5rem;
+    width: 80%;
+    text-align: center;
+    padding: 0;
+}
+.review-card {
+    background-color: #eaf0f6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.review-left {
+    width: 400px;
+    height: 450px;
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.review-right {
+    flex: 1;
+    width: 300px;
+    height: 450px;
+}
+
+.review-right img {
+    object-fit: cover;
+     width: 350px;
+    height: 450px;
+}
+
+    .createFunel-cont h2 {
+        font-weight: 600;
+        font-size: 3.5rem;
+        width: 90%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 70px;
+    }
+
   .disc-img img {
     width: 400px;
     height: 250px;
@@ -1212,12 +1269,13 @@ text {
 
 @media  (max-width: 768px) {
 
- .centerize{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+     .centerize {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+    }
 
   nav {
     width: 550px;
@@ -1226,17 +1284,18 @@ text {
     justify-content: space-evenly;
   }
 
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: white;
-    width: 100%;
-    padding: 10px 0;
-  }
-
+     .nav-links {
+        align-items: center;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        padding: 20px 0;
+        margin-top: 30px;
+    }
   .nav-links.active {
     display: flex;
   }
@@ -1245,9 +1304,64 @@ text {
     display: flex;
   }
 
-  .nav-btn {
-    display: none;
-  }
+  .logo-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: auto;
+    margin: auto;
+}
+
+.createFunel-main, .toolsIntegration-main {
+        margin-top: -20px;
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+    }
+
+    .createFunel-main, .toolsIntegration-main {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+.review-left {
+        width: 300px;
+        height: 450px;
+        flex: 1;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .review-text {
+    width: 250px;
+    height: 120px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    color: #111;
+}
+
+    .review-right {
+
+        width: 350px;
+        height: 450px;
+    }
+    .review-right img {
+        flex: 1;
+        width: 300px;
+        height: 450px;
+    }
+
+  .createFunel-cont h2, .advertising-center h2 {
+        font-size: 2.5rem;
+        width: 550px;
+        margin-top: 200px;
+    }
 
   nav ul {
     gap: 10px;
@@ -1360,6 +1474,12 @@ text {
     background-color: #E0E7ED;
   }
 
+ .advertising-center h2 {
+        font-size: 2.5rem;
+        width: 550px;
+        margin-top: -30px;
+    }
+
   .customerReview-main {
     width: 300px;
     height: 380px;
@@ -1435,6 +1555,10 @@ text {
     height: 85%;
   }
 
+  .onlineMarket-cont {
+    margin-top: 0px;
+}
+
   .features {
     height: auto;
     gap: 30px;
@@ -1452,11 +1576,28 @@ text {
   }
 
   .feature3 {
-    flex-direction: column;
-    height: auto;
-    padding: 40px 0;
-    gap: 30px;
-  }
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+        margin-left: -200px;
+    }
+.advertising-center h2 {
+        font-size: 2.5rem;
+        width: 400px;
+    }
+
+    .advertising-center {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -200px;
+        margin-left: 20px;
+    }
+
+    .cl{
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
 
   .more {
     margin-left: 0;
@@ -1467,6 +1608,18 @@ text {
     width: 500px;
     overflow: hidden;
   }
+
+  .footer {
+    width: 100%;
+    margin-top: 132px;
+    height: auto;
+    color: white;
+    background-color: #14171F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
 }
 
 
@@ -1574,11 +1727,11 @@ text {
   }
 
   .feature1,
-  .feature2,
-  .feature3 {
+  .feature2 {
     width: 350px;
     height: auto;
-    padding: 30px 0;
+    margin-left: -100px;
+    
   }
 
   .ad {
@@ -1610,4 +1763,41 @@ text {
     width: 170px;
     font-size: 15px;
   }
+  .slider-container {
+    background-color: #eaf0f6;
+    padding: 40px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    height: auto;
 }
+
+    .review-card {
+        background-color: #eaf0f6;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    .review-card img{
+      margin-left: 60px ;
+      width: 200px;
+      height: 250px;
+    }
+
+    .features {
+        width: 400px;
+        display: flex;
+        height: auto;
+    }
+
+
+}
+

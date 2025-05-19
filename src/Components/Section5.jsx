@@ -59,11 +59,12 @@ function Section5() {
         <div className="review-left">
           <h3 className="company">{reviews[index].company}</h3>
           <p className="review-text">{reviews[index].text}</p>
-          <p className="review-name">{reviews[index].name}</p>
+          <text className="review-name">{reviews[index].name}</text>
         </div>
-        <div className="review-right">
+          <div className="review-right">
           <img src={reviews[index].image} alt="person" />
         </div>
+        
       </div>
 
       <button className="arrow right" onClick={next}>❯</button>

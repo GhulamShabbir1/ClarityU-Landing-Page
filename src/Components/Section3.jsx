@@ -50,38 +50,6 @@ function Section3() {
               )}
             </div>
           ))}
-            {/* <div>
-              <details>
-                <summary>Bueatifull on All devices</summary>
-                <p>
-                  This is the first paragraph. It shows when you click Heading
-                  1.
-                </p>
-              </details>
-
-              <details>
-                <summary>Smart integration</summary>
-                <p>
-                  This is the second paragraph. It shows when you click Heading
-                  2.
-                </p>
-              </details>
-
-              <details>
-                <summary>Own your domain</summary>
-                <p>
-                  This is the third paragraph. It shows when you click Heading
-                  3.
-                </p>
-              </details>
-              <details>
-                <summary>GDPR compliance</summary>
-                <p>
-                  This is the third paragraph. It shows when you click Heading
-                  3.
-                </p>
-              </details>
-            </div> */}
           </div>
         </div>
       </div>

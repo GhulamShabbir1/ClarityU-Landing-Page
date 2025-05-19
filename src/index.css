@@ -920,10 +920,6 @@ text {
 @media only screen and (max-width: 1024px) {
 
 .centerize{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     width: 90% ;
     margin: 0 auto;
     
@@ -1274,6 +1270,7 @@ text {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
         margin-left: 10%;
     }
 

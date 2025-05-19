@@ -1527,7 +1527,7 @@ text {
 
   .footersection {
     width: 600px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     height: auto;
     gap: 40px;
     padding: 40px 0;

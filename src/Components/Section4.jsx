@@ -49,32 +49,7 @@ function Section4() {
               )}
             </div>
           ))}
-          {/* <details>
-            <summary>For all plateforms</summary>
-            <p>
-              This is the first paragraph. It shows when you click Heading 1.
-            </p>
-          </details>
 
-          <details>
-            <summary>A/B testing & analytics</summary>
-            <p>
-              This is the second paragraph. It shows when you click Heading 2.
-            </p>
-          </details>
-
-          <details>
-            <summary>Valueables insights</summary>
-            <p>
-              This is the third paragraph. It shows when you click Heading 3.
-            </p>
-          </details>
-          <details>
-            <summary>Qualified leads</summary>
-            <p>
-              This is the third paragraph. It shows when you click Heading 3.
-            </p>
-          </details> */}
            
         </div>
         <div className="disc-img">

@@ -343,6 +343,96 @@ position: relative;
   height: 372px;
 }
 
+/* Container for slider */
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 40px 0;
+}
+
+/* Review card */
+.review-card {
+  background-color: #eaf0f6; /* light bluish */
+  border-radius: 20px;
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+/* Left content */
+.review-left {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.review-text {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.review-name {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Right image */
+.review-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Image container */
+.review-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Arrow buttons */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.arrow:hover {
+  background-color: #f0f0f0;
+}
+
+
 .disc{
   width: 331px;
   height: 330px;

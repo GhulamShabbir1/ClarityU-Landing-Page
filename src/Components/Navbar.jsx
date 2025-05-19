@@ -15,7 +15,7 @@ function Navbar() {
           <li>Pricing</li>
           <div className="dropdown">
             <li className="dropdown-button">Resources <img src={Dropdown} alt="" /></li>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <a href="#">Option 1</a>
               <a href="#">Option 2</a>
               <a href="#">Option 3</a>
@@ -23,7 +23,7 @@ function Navbar() {
           </div>
           <div className="dropdown">
             <li className="dropdown-button">About us <img src={Dropdown} alt="" /></li>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <a href="#">Option 1</a>
               <a href="#">Option 2</a>
               <a href="#">Option 3</a>

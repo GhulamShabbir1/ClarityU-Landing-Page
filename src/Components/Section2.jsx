@@ -53,37 +53,7 @@ function Section2() {
         </div>
       </div>
 
-      {/* <div className="createFunel-main">
-        <div className="disc">
-          <details>
-            <summary>Fast editing</summary>
-            
-              <p>This is the first paragraph. It shows when you click Heading 1.</p>
-
-          </details>
-
-          <details>
-            <summary>Proven Templetes</summary>
-            <p>
-              This is the second paragraph. It shows when you click Heading 2.
-            </p>
-          </details>
-
-          <details>
-            <summary>Unique design</summary>
-            <p>
-              This is the third paragraph. It shows when you click Heading 3.
-            </p>
-          </details>
-          <details>
-            <summary>Personalize approach</summary>
-            <p>
-              This is the third paragraph. It shows when you click Heading 3.
-            </p>
-          </details>
-        </div>
-       
-      </div> */}
+  
     </>
   );
 }

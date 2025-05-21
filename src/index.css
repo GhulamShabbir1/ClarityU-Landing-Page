@@ -4,11 +4,11 @@
   font-family: "Inter",sans-serif;
 }
 
+
+
 .centerize{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid red;
   }
 
 /* Navbar css */
@@ -358,6 +358,7 @@ p {
   width: 100%;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   height: 450px;
+  margin: 0 auto;
 }
 
 /* Review card */
@@ -465,7 +466,6 @@ p {
   border-radius: 8px;
   object-fit: cover;
   box-shadow: 0px 0px 8px #555;
-  ;
 }
 
 .list-item {
@@ -625,6 +625,7 @@ p {
 
 .learn text {
   width: 360px;
+  color: #2A3062;
 }
 
 .learn a {
@@ -757,6 +758,7 @@ text {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  
 }
 
 .footersection {
@@ -861,6 +863,7 @@ text {
 
 
  @media only screen and (max-width: 1200px) {
+
   nav {
     margin-left: 80px;
     margin-right: 80px;
@@ -871,10 +874,7 @@ text {
   }
 
   .centerize{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
   }
   
   .heroSection-cont h2 {
@@ -889,10 +889,24 @@ text {
   .same, .customerReview-cont, .testification, .components, .feature3, .advertising-center  {
     width: 900px;
   }
+
+.slider-container{
+
+  width: auto;
+}
+
+.review-card{
+  width: 500px;
+}
   
+  .slider-container img{
+    width: 400px;
+  }
+
   .disc-img img {
     width: 500px;
     height: 300px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   }
   
   .toolsIntegration-disc {
@@ -900,11 +914,13 @@ text {
   }
   
   .advertising-cont {
-    width: 800px;
+    width: 950px;
     height: auto;
     margin-top: 100px;
   }
-  
+  .advertising-center h2{
+    font-size: 3rem;
+  }
   .bg1, .bg2 {
     width: 440px;
     height: 500px;
@@ -921,17 +937,11 @@ text {
 
 .centerize{
     width: 90% ;
-    margin: 0 auto;
     
   }
 
   nav {
-    display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-left: 60px;
-        margin-right: 60px;
-        width: 800px;
+    margin: 0 auto;
   }
 
   .nav-btn{
@@ -1266,12 +1276,14 @@ text {
 @media  (max-width: 768px) {
 
      .centerize {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-left: 10%;
+        width: 600px;
+  margin-left:15% ; */
+  margin: 0 auto;
     }
 
   nav {
@@ -1623,10 +1635,8 @@ text {
 @media only screen and (max-width: 480px) {
 
   .centerize{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
+    margin: 0 auto;
   }
 
   nav {
@@ -1637,8 +1647,12 @@ text {
   .heroSection-cont h2 {
     font-size: 1.8rem;
     width: 300px;
-  }
 
+  }
+/* nav,.heroSection-cont,.colours{
+  width: 400px;
+  margin: 0 auto;
+} */
   p {
     width: 280px;
   }
@@ -1726,7 +1740,6 @@ text {
   .feature2 {
     width: 350px;
     height: auto;
-    margin-left: -100px;
     
   }
 
@@ -1782,7 +1795,6 @@ text {
         width: 80%;
     }
     .review-card img{
-      margin-left: 60px ;
       width: 200px;
       height: 250px;
     }
@@ -1793,6 +1805,13 @@ text {
         height: auto;
     }
 
+    .feature3{
+      margin: 0 auto;
+    }
+
+
 
 }
+
+
 

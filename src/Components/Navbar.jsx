@@ -7,6 +7,7 @@ function Navbar() {
 
   return (
     <>
+    <div className="all">
       <nav className="navbar">
         <div className="nav-logo">
           <img src={logo} alt="Logo" />
@@ -52,6 +53,7 @@ function Navbar() {
           <button className="tryforfree">Try For Free</button>
         </div>
       </nav>
+      </div>
     </>
   );
 }

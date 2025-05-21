@@ -29,6 +29,7 @@ function Section2() {
 
   return (
     <>
+    <div className="all">
       <div className="createFunel-cont">
         <h2>Create your first funnels in 60 minutes. Headache-free.</h2>
       </div>
@@ -53,7 +54,7 @@ function Section2() {
         </div>
       </div>
 
-  
+  </div>
     </>
   );
 }

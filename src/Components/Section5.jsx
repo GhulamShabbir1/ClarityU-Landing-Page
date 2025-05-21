@@ -45,6 +45,7 @@ function Section5() {
   };
   return (
     <>
+    <div className="all">
       <div className="createFunel-cont">
         <h2>
           With Perspective, our customers <br />
@@ -77,6 +78,7 @@ function Section5() {
           <img src={R2} alt="Review 2" />
           <img src={R3} alt="Review 3" />
         </div>
+      </div>
       </div>
     </>
   );

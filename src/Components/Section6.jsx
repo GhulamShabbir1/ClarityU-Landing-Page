@@ -10,6 +10,7 @@ import "boxicons";
 function Section6() {
   return (
     <>
+    <div className="all">
       <div className="createFunel-cont onlineMarket-cont">
         <h2>
           Learn easily and free. Take <br />
@@ -74,6 +75,8 @@ function Section6() {
             <img className="img2" src={Link4} alt="advertise" />
           </div>
         </div>
+      </div>
+
       </div>
     </>
   );

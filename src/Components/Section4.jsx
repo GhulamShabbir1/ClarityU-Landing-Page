@@ -28,6 +28,7 @@ function Section4() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
+    <div className="all">
     <div className="createFunel-cont">
     <h2>
       Analyze your target audience and<br />
@@ -56,7 +57,7 @@ function Section4() {
         <img src={S4} alt="section 4" />
       </div>
       </div>
-     
+     </div>
     </>
   );
 }

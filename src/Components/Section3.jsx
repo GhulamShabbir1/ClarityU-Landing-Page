@@ -1,5 +1,5 @@
 import React , {useState} from "react";
-import S3 from "../assets/s3.png";
+import S3 from "../assets/s3.svg";
 
 const features = [
   {
@@ -28,7 +28,7 @@ function Section3() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
-      <div className="createFunel-cont toolsIntegration-cont">
+      <div className="createFunel-cont toolsIntegration-cont all">
         <h2>
           Integrate your favorite tools and
           share your funnel with the world.

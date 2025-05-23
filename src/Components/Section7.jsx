@@ -17,7 +17,7 @@ function Section7() {
             Start advertising more <br />
             effectively in the mobile age.
           </h2>
-          <div className="check-list cl">
+          <div className=" cl">
             <ul>
               <li className="points">
                 <img src={Check} alt="check" />

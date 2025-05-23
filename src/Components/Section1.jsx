@@ -15,7 +15,6 @@ function Section1() {
   return (
     <>
       <div className="heroSection-cont all">
-        
         <h2>Create hight-Converting funnels in just 60 Minutes</h2>
 
         <p>
@@ -67,7 +66,6 @@ function Section1() {
           <img src={Logo2} className="logo" alt="logo" />
           <img src={Logo3} className="logo" alt="logo" />
           <img src={Logo7} className="logo" alt="logo" />
-
         </div>
       </div>
     </>

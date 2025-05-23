@@ -1,4 +1,4 @@
-import React ,{useState} from "react";
+import React, { useState } from "react";
 import R1 from "../assets/Review1.png";
 import R2 from "../assets/Review2.png";
 import R3 from "../assets/Review3.png";
@@ -31,7 +31,7 @@ const ReviewSlider = () => {
   const prevSlide = () => {
     setIndex((prev) => (prev - 1 + reviews.length) % reviews.length);
   };
-}
+};
 
 function Section5() {
   const [index, setIndex] = useState(0);
@@ -45,40 +45,43 @@ function Section5() {
   };
   return (
     <>
-    <div className="all">
-      <div className="createFunel-cont">
-        <h2>
-          With Perspective, our customers <br />
-          make the impossible possible.
-        </h2>
-      </div>
-
-       <div className="slider-container">
-      <button className="arrow left" onClick={prev}>❮</button>
-
-      <div className="review-card">
-        <div className="review-left">
-          <h3 className="company">{reviews[index].company}</h3>
-          <p className="review-text">{reviews[index].text}</p>
-          <text className="review-name">{reviews[index].name}</text>
+      <div className="all">
+        <div className="createFunel-cont">
+          <h2>
+            With Perspective, our customers <br />
+            make the impossible possible.
+          </h2>
         </div>
-          <div className="review-right">
-          <img src={reviews[index].image} alt="person" />
-        </div>
-        
-      </div>
 
-      <button className="arrow right" onClick={next}>❯</button>
-    </div>
+        <div className="slider-container">
+          <button className="arrow left" onClick={prev}>
+            ❮
+          </button>
 
-      <div className="test">
-        <text>The top rated Conservation Optimization tools</text>
-        <div className="testification">
-          <img src={R1} alt="Review 1" />
-          <img src={R2} alt="Review 2" />
-          <img src={R3} alt="Review 3" />
+          <div className="review-card">
+            <div className="review-left">
+              <h3 className="company">{reviews[index].company}</h3>
+              <p className="review-text">{reviews[index].text}</p>
+              <text className="review-name">{reviews[index].name}</text>
+            </div>
+            <div className="review-right">
+              <img src={reviews[index].image} alt="person" />
+            </div>
+          </div>
+
+          <button className="arrow right" onClick={next}>
+            ❯
+          </button>
         </div>
-      </div>
+
+        <div className="test">
+          <text>The top rated Conservation Optimization tools</text>
+          <div className="testification">
+            <img src={R1} alt="Review 1" />
+            <img src={R2} alt="Review 2" />
+            <img src={R3} alt="Review 3" />
+          </div>
+        </div>
       </div>
     </>
   );

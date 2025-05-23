@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import S3 from "../assets/s3.svg";
 
 const features = [
@@ -30,26 +30,25 @@ function Section3() {
     <>
       <div className="createFunel-cont toolsIntegration-cont all">
         <h2>
-          Integrate your favorite tools and
-          share your funnel with the world.
+          Integrate your favorite tools and share your funnel with the world.
         </h2>
         <div className="createFunel-main toolsIntegration-main">
           <div className="disc-img">
             <img src={S3} alt="section 3" />
           </div>
           <div className="disc toolsIntegration-disc">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className={`list-item ${index === activeIndex ? "active" : ""}`}
-              onClick={() => setActiveIndex(index)}
-            >
-              <div className="heading">{feature.title}</div>
-              {index === activeIndex && (
-                <div className="description">{feature.description}</div>
-              )}
-            </div>
-          ))}
+            {features.map((feature, index) => (
+              <div
+                key={index}
+                className={`list-item ${index === activeIndex ? "active" : ""}`}
+                onClick={() => setActiveIndex(index)}
+              >
+                <div className="heading">{feature.title}</div>
+                {index === activeIndex && (
+                  <div className="description">{feature.description}</div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </div>

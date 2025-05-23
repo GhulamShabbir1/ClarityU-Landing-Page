@@ -10,73 +10,73 @@ import "boxicons";
 function Section6() {
   return (
     <>
-    <div className="all">
-      <div className="createFunel-cont onlineMarket-cont">
-        <h2>
-          Learn easily and free. Take <br />
-          your online marketing into <br />
-          your own hands.
-        </h2>
-      </div>
-      <div className="features">
-        <div className="components">
-          <div className="feature1">
-            <div className="learn">
-              <h3>
-                Prospective <br />
-                Community
-              </h3>
-              <text>
-                Where marketers and recruiters exchange <br />
-                insights on a daily basis
-              </text>
+      <div className="all">
+        <div className="createFunel-cont onlineMarket-cont">
+          <h2>
+            Learn easily and free. Take <br />
+            your online marketing into <br />
+            your own hands.
+          </h2>
+        </div>
+        <div className="features">
+          <div className="components">
+            <div className="feature1">
+              <div className="learn">
+                <h3>
+                  Prospective <br />
+                  Community
+                </h3>
+                <text>
+                  Where marketers and recruiters exchange <br />
+                  insights on a daily basis
+                </text>
 
-              <a href="#">
-                <img src={Link5} alt="arrow" />
-                Learn more
-              </a>
+                <a href="#">
+                  <img src={Link5} alt="arrow" />
+                  Learn more
+                </a>
+              </div>
+              <img className="ad" src={Link1} alt="advertise" />
             </div>
-            <img className="ad" src={Link1} alt="advertise" />
+            <div className="feature2">
+              <div className="learn">
+                <h3>
+                  Mobile Funnel <br />
+                  Crash Course
+                </h3>
+                <text>
+                  The popular 60-minute mobile funnel crash course, moderated
+                  live
+                </text>
+                <a href="#">
+                  <img src={Link5} alt="arrow" />
+                  Learn more
+                </a>
+              </div>
+              <img className="ad" src={Link2} alt="advertise" />
+            </div>
           </div>
-          <div className="feature2">
-            <div className="learn">
+          <div className="feature3">
+            <div className="learn  more">
               <h3>
                 Mobile Funnel <br />
-                Crash Course
+                Marketing Acedemy
               </h3>
               <text>
-                The popular 60-minute mobile funnel crash course, moderated live
+                Our Head of Content, Leni, guides you through <br />
+                your first successful funnel
               </text>
               <a href="#">
-                <img src={Link5} alt="arrow" />
+                <img src={Link6} alt="arrow" />
                 Learn more
               </a>
             </div>
-            <img className="ad" src={Link2} alt="advertise" />
+            <div className="advertise">
+              <img className="img1" src={Link3} alt="advertise" />
+              <img className="img2" src={Link4} alt="advertise" />
+            </div>
           </div>
         </div>
-        <div className="feature3">
-          <div className="learn  more">
-            <h3>
-              Mobile Funnel <br />
-              Marketing Acedemy
-            </h3>
-            <text>
-              Our Head of Content, Leni, guides you through <br />
-              your first successful funnel
-            </text>
-            <a href="#">
-              <img src={Link6} alt="arrow" />
-              Learn more
-            </a>
-          </div>
-          <div className="advertise">
-            <img className="img1" src={Link3} alt="advertise" />
-            <img className="img2" src={Link4} alt="advertise" />
-          </div>
-        </div>
-      </div>
-
       </div>
     </>
   );

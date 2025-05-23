@@ -1,5 +1,5 @@
-import React,{useState} from "react";
-import S4 from '../assets/s4.png'
+import React, { useState } from "react";
+import S4 from "../assets/s4.png";
 
 const features = [
   {
@@ -28,36 +28,35 @@ function Section4() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
-    <div className="all">
-    <div className="createFunel-cont">
-    <h2>
-      Analyze your target audience and<br />
-      achieve record results.
-      </h2>
-    </div>
-      
-      <div className="createFunel-main targetAudiance-main" >
-        <div className="disc">
-        {features.map((feature, index) => (
-            <div
-              key={index}
-              className={`list-item ${index === activeIndex ? "active" : ""}`}
-              onClick={() => setActiveIndex(index)}
-            >
-              <div className="heading">{feature.title}</div>
-              {index === activeIndex && (
-                <div className="description">{feature.description}</div>
-              )}
-            </div>
-          ))}
-
-           
+      <div className="all">
+        <div className="createFunel-cont">
+          <h2>
+            Analyze your target audience and
+            <br />
+            achieve record results.
+          </h2>
         </div>
-        <div className="disc-img">
-        <img src={S4} alt="section 4" />
+
+        <div className="createFunel-main targetAudiance-main">
+          <div className="disc">
+            {features.map((feature, index) => (
+              <div
+                key={index}
+                className={`list-item ${index === activeIndex ? "active" : ""}`}
+                onClick={() => setActiveIndex(index)}
+              >
+                <div className="heading">{feature.title}</div>
+                {index === activeIndex && (
+                  <div className="description">{feature.description}</div>
+                )}
+              </div>
+            ))}
+          </div>
+          <div className="disc-img">
+            <img src={S4} alt="section 4" />
+          </div>
+        </div>
       </div>
-      </div>
-     </div>
     </>
   );
 }

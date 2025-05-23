@@ -29,32 +29,31 @@ function Section2() {
 
   return (
     <>
-    <div className="all">
-      <div className="createFunel-cont">
-        <h2>Create your first funnels in 60 minutes. Headache-free.</h2>
-      </div>
-      
-      <div className="createFunel-main">
-        <div className="disc">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className={`list-item ${index === activeIndex ? "active" : ""}`}
-              onClick={() => setActiveIndex(index)}
-            >
-              <div className="heading">{feature.title}</div>
-              {index === activeIndex && (
-                <div className="description">{feature.description}</div>
-              )}
-            </div>
-          ))}
+      <div className="all">
+        <div className="createFunel-cont">
+          <h2>Create your first funnels in 60 minutes. Headache-free.</h2>
         </div>
-        <div className="disc-img">
-          <img src={S2} alt="section 2" />
-        </div>
-      </div>
 
-  </div>
+        <div className="createFunel-main">
+          <div className="disc">
+            {features.map((feature, index) => (
+              <div
+                key={index}
+                className={`list-item ${index === activeIndex ? "active" : ""}`}
+                onClick={() => setActiveIndex(index)}
+              >
+                <div className="heading">{feature.title}</div>
+                {index === activeIndex && (
+                  <div className="description">{feature.description}</div>
+                )}
+              </div>
+            ))}
+          </div>
+          <div className="disc-img">
+            <img src={S2} alt="section 2" />
+          </div>
+        </div>
+      </div>
     </>
   );
 }

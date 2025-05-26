@@ -374,7 +374,6 @@ p {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-
 }
 
 /* Left content */
@@ -424,7 +423,6 @@ p {
   flex: 1;
   width: 500px;
   margin-left: 50px;
-
 }
 
 /* Arrow buttons */

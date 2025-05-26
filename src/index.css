@@ -4,10 +4,12 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-body{
+
+body {
   margin: 0%;
   padding: 0%;
 }
+
 .centerize {
   margin: 0 auto;
 }
@@ -1381,7 +1383,7 @@ p {
     padding: 20px 0px;
   }
 
- 
+
 
   .feature2 {
     width: 350px;
@@ -1410,7 +1412,7 @@ p {
 
   }
 
-   .ad {
+  .ad {
     width: 350px;
     object-fit: cover;
     margin-bottom: -20px;
@@ -1623,6 +1625,19 @@ p {
 
   }
 
+  .colours {
+    height: 300px;
+  }
+
+  .center {
+    height: 325px;
+    margin-bottom: 25px;
+  }
+
+  .video img {
+    object-fit: cover;
+  }
+
   .logo-track {
     display: flex;
     align-items: center;
@@ -1634,58 +1649,6 @@ p {
 
   .createFunel-cont h2 {
     font-size: 2rem;
-  }
-
-  .createFunel-main,
-  .toolsIntegration-main {
-    margin-top: -20px;
-    flex-direction: column;
-    height: auto;
-    gap: 40px;
-  }
-
-  .createFunel-main,
-  .toolsIntegration-main {
-    flex-direction: column;
-    height: auto;
-    gap: 40px;
-    margin-top: 30px;
-  }
-
-  .slider-container {
-    width: 90%;
-    height: 450px;
-    justify-content: space-around;
-  }
-
-  .review-left {
-    width: 250px;
-    height: 450px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  .review-text {
-    width: 200px;
-    height: 120px;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: left;
-    color: #111;
-  }
-
-  .review-right {
-
-    width: 250px;
-    height: 450px;
-    margin-left: -12px;
-  }
-
-  .review-right img {
-    width: 250px;
-    height: 450px;
   }
 
   .createFunel-cont h2,
@@ -1778,6 +1741,7 @@ p {
     flex-direction: column;
     height: auto;
     gap: 40px;
+    margin-top: 30px;
   }
 
   .description {
@@ -1823,34 +1787,6 @@ p {
     background-color: #E0E7ED;
   }
 
-  .advertising-center h2 {
-    font-size: 2rem;
-    width: 550px;
-    margin-top: -30px;
-  }
-
-  .customerReview-main {
-    width: 300px;
-    height: 380px;
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-
-  .customerReview-image img {
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-  }
-
-  .customerReview-main text {
-    width: 200px;
-    height: 120px;
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
-  }
 
   .company {
     width: 200px;
@@ -1866,41 +1802,7 @@ p {
 
 
 
-  .bg1,
-  .bg2 {
-    width: 290px;
-    height: 400px;
-  }
 
-
-  .about,
-  .contact,
-  .links,
-  .polices {
-    width: 200px;
-    font-size: 13px;
-  }
-
-  .about text {
-    width: 200px;
-    padding-right: 20px;
-    font-size: 13px;
-    text-align: justify;
-  }
-
-
-  .colours {
-    height: 300px;
-  }
-
-  .center {
-    height: 325px;
-    margin-bottom: 25px;
-  }
-
-  .video img {
-    object-fit: cover;
-  }
 
   .onlineMarket-cont {
     margin-top: 0px;
@@ -1932,23 +1834,6 @@ p {
     padding: 40px 0;
   }
 
-  .advertising-center h2 {
-    font-size: 2rem;
-    width: 400px;
-  }
-
-  .advertising-center {
-    position: relative;
-    height: 375px;
-    border-radius: 21px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    background: transparent;
-  }
 
   .cl {
     width: 400px;
@@ -1972,27 +1857,96 @@ p {
     width: 500px;
   }
 
+  .slider-container {
+    width: 90%;
+    height: 450px;
+    justify-content: space-around;
+  }
+
+  .review-left {
+    width: 250px;
+    height: 450px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .review-text {
+    width: 200px;
+    height: 120px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    color: #111;
+  }
+
+  .review-right {
+
+    width: 250px;
+    height: 450px;
+    margin-left: -12px;
+  }
+
+  .review-right img {
+    width: 250px;
+    height: 450px;
+  }
+
+  .customerReview-main {
+    width: 300px;
+    height: 380px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .customerReview-image img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .customerReview-main text {
+    width: 200px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+
+
+
   .advertise {
     width: 500px;
     overflow: hidden;
   }
 
-  .footer {
-    width: 100%;
-    margin-top: 132px;
-    height: auto;
-    color: white;
-    background-color: #14171F;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  .advertising-center h2 {
+    font-size: 2rem;
+    width: 400px;
+    margin-top: -30px;
   }
 
-  .footersection {
-    width: 100%;
+  .advertising-center {
+    position: relative;
+    height: 375px;
+    border-radius: 21px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background: transparent;
+  }
+
+
+  .bg1,
+  .bg2 {
+    width: 290px;
+    height: 400px;
   }
 
   .check-list {
@@ -2024,7 +1978,38 @@ p {
     width: 80px;
   }
 
+  .footer {
+    width: 100%;
+    margin-top: 132px;
+    height: auto;
+    color: white;
+    background-color: #14171F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
+  .footersection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about,
+  .contact,
+  .links,
+  .polices {
+    width: 200px;
+    font-size: 13px;
+  }
+
+  .about text {
+    width: 200px;
+    padding-right: 20px;
+    font-size: 13px;
+    text-align: justify;
+  }
 }
 
 
@@ -2114,11 +2099,10 @@ p {
     object-fit: cover;
   }
 
-  
+
   .customerReview-cont,
   .testification,
-  .components
-  .advertising-center {
+  .components .advertising-center {
     width: 80%;
   }
 
@@ -2186,7 +2170,7 @@ p {
     justify-content: center;
   }
 
- .slider-container {
+  .slider-container {
     background-color: #eaf0f6;
 
     padding: 40px 0;
@@ -2211,10 +2195,11 @@ p {
     width: 80%;
   }
 
-  .review-text{
+  .review-text {
     height: auto;
     margin-bottom: 10px;
   }
+
   .review-card img {
     width: auto;
     height: 250px;
@@ -2242,14 +2227,14 @@ p {
     width: 80%;
   }
 
-  
+
   .img1,
   .img2 {
     width: 140px;
     margin-top: 0;
   }
 
-   .learn {
+  .learn {
     width: 300px;
   }
 
@@ -2292,7 +2277,7 @@ p {
     margin: 0 auto;
   }
 
-   .ad {
+  .ad {
     width: 300px;
     object-fit: cover;
   }
@@ -2319,7 +2304,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    
+
   }
 
   .about,
@@ -2330,7 +2315,7 @@ p {
     font-size: 10px;
   }
 
-   .about img {
+  .about img {
     margin-top: 13px;
     width: 80px;
   }

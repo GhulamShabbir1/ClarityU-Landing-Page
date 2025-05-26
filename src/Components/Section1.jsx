@@ -14,7 +14,7 @@ import "boxicons";
 function Section1() {
   return (
     <>
-      <div className="heroSection-cont all">
+      <div className="heroSection-cont">
         <h2>Create hight-Converting funnels in just 60 Minutes</h2>
 
         <p>

@@ -2108,7 +2108,6 @@ p {
 
   .slider-container {
     background-color: #eaf0f6;
-
     padding: 40px 0;
     border-radius: 20px;
     display: flex;
@@ -2141,7 +2140,6 @@ p {
     height: 250px;
   }
 
-
   .features {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -2154,15 +2152,12 @@ p {
   .feature2 {
     width: 350px;
     height: auto;
-
   }
-
 
   .feature3 {
     margin: 0 auto;
     width: 80%;
   }
-
 
   .img1,
   .img2 {
@@ -2195,7 +2190,6 @@ p {
     justify-content: center;
     text-align: center;
     background: transparent;
-
   }
 
   .advertising-center h2 {
@@ -2203,9 +2197,7 @@ p {
     margin: 0 auto;
   }
 
-
-
-  .check-list ul {
+.check-list ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -2223,9 +2215,7 @@ p {
     width: 300px;
   }
 
-  .bg1,
-  .bg2 {
-
+  .bg1, .bg2 {
     width: 45%;
     height: 250px;
   }
@@ -2240,7 +2230,6 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-
   }
 
   .about,
@@ -2267,8 +2256,6 @@ p {
   }
 
   .social img {
-
     width: 20px;
   }
-
 }

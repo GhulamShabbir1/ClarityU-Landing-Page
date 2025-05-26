@@ -28,7 +28,7 @@ function Section3() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
-      <div className="createFunel-cont toolsIntegration-cont all">
+      <div className="createFunel-cont toolsIntegration-cont">
         <h2>
           Integrate your favorite tools and share your funnel with the world.
         </h2>

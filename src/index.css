@@ -2108,7 +2108,7 @@ p {
     object-fit: cover;
   }
 
-  .same,
+  
   .customerReview-cont,
   .testification,
   .components,
@@ -2119,6 +2119,7 @@ p {
 
   .same {
     margin-top: -200px;
+    width: 80%;
   }
 
   .heroSection-btn {

@@ -1685,7 +1685,6 @@ p {
 
   .logo-container img {
     height: 40px;
-
   }
 
   .createFunel-cont h2,
@@ -1745,7 +1744,6 @@ p {
     background-color: #E0E7ED;
   }
 
-
   .company {
     width: 200px;
     height: 28px;
@@ -1757,10 +1755,6 @@ p {
     font-weight: 500;
     width: 75px;
   }
-
-
-
-
 
   .onlineMarket-cont {
     margin-top: 0px;
@@ -1791,7 +1785,6 @@ p {
     width: 500px;
     padding: 40px 0;
   }
-
 
   .cl {
     width: 400px;
@@ -1874,8 +1867,6 @@ p {
     color: black;
   }
 
-
-
   .advertise {
     width: 500px;
     overflow: hidden;
@@ -1900,7 +1891,6 @@ p {
     background: transparent;
   }
 
-
   .bg1,
   .bg2 {
     width: 290px;
@@ -1908,16 +1898,12 @@ p {
   }
 
   .check-list {
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     font-size: 10px;
     width: 90%;
   }
-
-
 
   .check-list ul li {
     width: 150px;
@@ -1974,7 +1960,6 @@ p {
 @media (max-width: 480px) {
 
   .centerize {
-
     margin: 0 auto;
   }
 
@@ -1989,7 +1974,6 @@ p {
   }
 
   .nav-links {
-
     display: none;
     flex-direction: column;
     align-items: center;
@@ -2006,7 +1990,6 @@ p {
 
   .nav-links.active {
     display: flex;
-
   }
 
   .active {
@@ -2027,7 +2010,6 @@ p {
   .heroSection-cont h2 {
     font-size: 1.7rem;
     width: auto;
-
   }
 
   .heroSection-cont {
@@ -2057,7 +2039,6 @@ p {
     object-fit: cover;
   }
 
-
   .customerReview-cont,
   .testification,
   .components .advertising-center {
@@ -2075,7 +2056,6 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
   }
 
   .start,
@@ -2087,7 +2067,6 @@ p {
 
   .logo-slider {
     width: 80%;
-
     margin: 10%;
   }
 
@@ -2099,7 +2078,6 @@ p {
   .advertising-center h2 {
     font-size: 1.7rem;
     width: auto;
-
   }
 
   .disc-img img {

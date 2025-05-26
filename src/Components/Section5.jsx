@@ -16,7 +16,7 @@ const reviews = [
   {
     company: "CONVAIX.",
     text: "Cut hiring time by 70% with smarter matching and automated workflows.",
-    name: "Emily Davis, Head of Talent",
+    name: "Emily Davis, CEO",
     image: Person2,
   },
 ];

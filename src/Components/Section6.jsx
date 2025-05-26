@@ -56,6 +56,7 @@ function Section6() {
               <img className="ad" src={Link2} alt="advertise" />
             </div>
           </div>
+          
           <div className="feature3">
             <div className="learn  more">
               <h3>

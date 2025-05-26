@@ -111,7 +111,6 @@ li {
   display: block;
 }
 
-
 .nav-btn {
   width: 200px;
   display: flex;
@@ -137,7 +136,6 @@ li {
   border-radius: 8px;
   color: white;
   font-weight: bold;
-
 }
 
 /* Hero Section css */
@@ -291,7 +289,6 @@ p {
   font-weight: 400;
   font-weight: bold;
   font-size: 24px;
-
 }
 
 .logo-slider {
@@ -307,8 +304,6 @@ p {
   height: 56px;
   width: 1058px;
   margin: auto;
-
-
 }
 
 

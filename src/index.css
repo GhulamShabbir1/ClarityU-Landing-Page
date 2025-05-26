@@ -2098,6 +2098,12 @@ p {
     text-align: center;
   }
 
+  .colours {
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+  }
+
   .center {
     height: 220px;
     margin-bottom: 10px;
@@ -2240,11 +2246,9 @@ p {
     font-size: 10px;
   }
 
-  .colours {
-    margin-top: 100px;
-    height: 200px;
-    width: 100%;
-  }
+  /* end */
+
+  
 
   .feature1,
   .feature2 {

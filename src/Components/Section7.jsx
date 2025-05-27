@@ -7,7 +7,7 @@ import Check from "../assets/check.png";
 function Section7() {
   return (
     <>
-      <div className="advertising-cont all">
+      <div className="advertising-cont">
         <div className="bg1">
           <img src={Bg1} alt="bg" />
         </div>

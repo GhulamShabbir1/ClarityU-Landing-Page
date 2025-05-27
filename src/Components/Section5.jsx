@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import R1 from "../assets/Review1.png";
 import R2 from "../assets/Review2.png";
 import R3 from "../assets/Review3.png";
-import Clogo from "../assets/testlogo.png";
 import Person1 from "../assets/p1.png";
 import Person2 from "../assets/p2.png";
 

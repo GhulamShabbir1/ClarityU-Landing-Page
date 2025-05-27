@@ -7,7 +7,7 @@ import X from "../assets/x.png";
 function Section8() {
   return (
     <>
-      <div className="footer all">
+      <div className="footer">
         <div className="footersection">
           <div className="about">
             <img src={Logo2} alt="Logo" />
